@@ -73,6 +73,12 @@ int _printf(const char *format, ...)
 		{"d", print_int},
 		{"i", print_int},
 		{"u", print_unsigned_int},
+		{"b", print_bin},
+		{"o", print_oct},
+		{"x", print_hex},
+		{"X", print_HEX},
+		{"S", print_custom_str},
+		{"p", print_pointer},
 		{NULL, NULL}
 	};
 
